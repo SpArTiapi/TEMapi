@@ -10897,7 +10897,7 @@ if database:get('bot:lang:'..msg.chat_id_) then
 end
 	-----------------------------------------------------------------------------------------------
 
-	if text:match("^[Ss][Ee][Tt][Pp][Hh][Oo][Tt][Oo]$") or text:match("^وضع صوره") and is_mod(msg.sender_user_id_, msg.chat_id_) then
+		if text:match("^[Ss][Ee][Tt][Pp][Hh][Oo][Tt][Oo]$") and is_mod(msg.sender_user_id_, msg.chat_id_) or text:match("^وضع صوره") and is_mod(msg.sender_user_id_, msg.chat_id_) then
 database:set('bot:setphoto'..msg.chat_id_..':'..msg.sender_user_id_,true)
 if database:get('bot:lang:'..msg.chat_id_) then
    send(msg.chat_id_, msg.id_, 1, '_Please send a photo noew!_', 1, 'md')
@@ -10906,7 +10906,7 @@ else
 end
 end
 
-	if text:match("^[Dd][Ee][Ll][Pp][Hh][Oo][Tt][Oo]$") or text:match("^مسح الصوره") and is_mod(msg.sender_user_id_, msg.chat_id_) then
+	if text:match("^[Dd][Ee][Ll][Pp][Hh][Oo][Tt][Oo]$") and is_mod(msg.sender_user_id_, msg.chat_id_) or text:match("^مسح الصوره") and is_mod(msg.sender_user_id_, msg.chat_id_) then
 https.request('https://api.telegram.org/bot'..token..'/deleteChatPhoto?chat_id='..msg.chat_id_)
 if database:get('bot:lang:'..msg.chat_id_) then
    send(msg.chat_id_, msg.id_, 1, '_Photo Group Deleted!_', 1, 'md')
