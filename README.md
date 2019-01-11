@@ -10,11 +10,11 @@
 
 1️⃣┇افتح ترمنال وحط
 
-git clone https://github.com/moodlIMyIl/TshAkEapi
+git clone https://github.com/SpArTiapi/TEMapi
 
 2️⃣┇انتر وراه حط،
 
-cd TshAkEapi 
+cd TEMapi 
 
 3️⃣┇وانتر وراه حط
 
@@ -26,7 +26,7 @@ cd TshAkEapi
 
 ⤵️┇او نصب بكود واحد،
 
-git clone https://github.com/moodlIMyIl/TshAkEapi && cd TshAkEapi && chmod +x install.sh && ./install.sh
+git clone https://github.com/SpArTiapi/TEMapi && cd TEMapi && chmod +x install.sh && ./install.sh
 
 📥┇وراح يطلب منك اثناء التنصيب تحط y او n دائما اختار y، 
 
@@ -60,13 +60,9 @@ git clone https://github.com/moodlIMyIl/TshAkEapi && cd TshAkEapi && chmod +x in
 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
 
-✨┇ومبروك نصبت سورس تشاكي، 
+✨┇ومبروك نصبت سورس سبارتا، 
 
 ☑️┇تيجي الجديد ع التوكن 
-
-📮┇@TshAkETEAM
-
-🦁┇@TSHELPBOT
 
 
 
